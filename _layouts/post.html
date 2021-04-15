@@ -56,6 +56,14 @@ sidebar:
     </div>
     {%- endif -%}
 
+    <h4 style="float: left">分享： </h4>
+    <div class="share-bottons">
+      <a  href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ site.baseurl }}{{ page.url }}"
+          onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+          title="Share on Facebook" >
+          <i class="fa fa-facebook-official share-button"> facebook</i>
+      </a>
+    </div>
     {%- assign result = hidden | where_exp: "item", "item == 'comments'" -%}
     {%- if result.size == 0 -%}
     <div class="post-comments">
