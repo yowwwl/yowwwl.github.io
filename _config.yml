@@ -31,8 +31,8 @@ copyright: Copyright © 2021
 description: >- # this means to ignore newlines until "baseurl:"
   你好，我是喵的野小小，喵星人這種可愛又迷人的野小生物，你知道如何把他們照顧的服服貼貼的嗎？無壓力貓人生活，就讓我們繼續看下去 🐈
 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://yowwwl.com" # the base hostname & protocol for your site, e.g. http://example.com
 favicon: "/assets/img/favicon.ico" # the favicon for your site
 avatar: "/assets/img/avatar.png"
 
